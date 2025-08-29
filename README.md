@@ -1,6 +1,6 @@
 ﻿# RealEstate API
 
-API para la gestión de propiedades, dueños y trazabilidad en un sistema de bienes raíces. Desarrollada en **ASP.NET Core 7** con arquitectura de capas y pruebas unitarias usando **NUnit** y **Moq**.
+API para la gestión de propiedades, dueños y trazabilidad en un sistema de bienes raíces. Desarrollada en **ASP.NET Core 8** con arquitectura de capas y pruebas unitarias usando **NUnit** y **Moq**.
 
 ---
 
@@ -49,7 +49,7 @@ Los archivos de la base de datos se encuentran en la carpeta `bd`:
 | `data.sql`     | Script SQL para poblar la base de datos | 2 KB   |
 | `RealEstateDB.bak` | Backup completo de la base de datos SQL Server | 7.968 KB |
 
-> Nota: Puedes restaurar el `.bak` en SQL Server o ejecutar `data.sql` para crear la base de datos desde cero.
+> Nota: Puedes restaurar el `.bak` en SQL Server o ejecutar `data.sql` para poblar la base de datos.
 
 ---
 
@@ -58,5 +58,5 @@ Los archivos de la base de datos se encuentran en la carpeta `bd`:
 1. Clonar el repositorio:
 
 ```bash
-git clone https://github.com/tuusuario/RealEstateAPI.git
-cd RealEstateAPI
+git clone https://github.com/heiderllanten/RealStateSolution.git
+cd RealEstateSolution
